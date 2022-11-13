@@ -1,0 +1,65 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+table {
+  width: 350px;
+  margin: 10% auto;
+}
+
+td,
+th {
+  border: 1px solid gray;
+}
+
+.Beatles-pic {
+  border: none;
+  display: flex;
+  margin: 3% 0 1% 10%;
+  border-radius: 45px;
+}
+
+.td__beatles {
+  border: none;
+}
+
+.td__beatles > td,
+th {
+  border: none;
+}
+
+.directv-pic {
+  width: 100%;
+  border: none;
+}
+
+.td__directv {
+  border: none;
+}
+
+.tr__directv > th,
+.tr__directv > td {
+  border: 1px solid gray;
+  background-color: rgb(115, 115, 246);
+  color: #fff;
+}
+
+.img-border > tr,
+.img-border > td,
+.img-border > th {
+  border: none;
+}
+
+.last-col {
+  text-align: center;
+}
+
+.tr__classes > th {
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 700px) {
+  .table__fruit {
+    display: none;
+  }
+}

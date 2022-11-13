@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--1st table -->
+    <table id="beatles-table">
+      <caption>
+        The Beatles
+      </caption>
+      <tr>
+        <td rowspan="1" class="td__beatles">
+          <img
+            src="imgs/beattle.jpg"
+            alt="Beatles Picture"
+            class="Beatles-pic"
+          />
+        </td>
+      </tr>
+      <tr class="td__beatles">
+        <th class="td__beatles">Album</th>
+        <th class="td__beatles">Year</th>
+      </tr>
+
+      <tr class="td__beatles">
+        <td>Rubber Soul</td>
+        <td>1965</td>
+      </tr>
+      <tr class="td__beatles">
+        <td>Revolver</td>
+        <td>1966</td>
+      </tr>
+      <tr class="td__beatles">
+        <td>Sgt.Pepper's</td>
+        <td>1967</td>
+      </tr>
+      <tr class="td__beatles">
+        <td>The White Album</td>
+        <td>1969</td>
+      </tr>
+    </table>
+
+    <!--2nd table -->
+    <table>
+      <caption>
+        <!-- DIRECTV -->
+      </caption>
+      <tr>
+        <td colspan="3" class="td__directv">
+          <img
+            src="imgs/directv.svg"
+            alt="Beatles Picture"
+            class="directv-pic"
+          />
+        </td>
+      </tr>
+      <tr class="tr__directv">
+        <th>7:00pm</th>
+        <th>7:30pm</th>
+        <th>8:00pm</th>
+      </tr>
+
+      <tr class="tr__directv">
+        <td colspan="3">The Sunday Night Movie</td>
+      </tr>
+      <tr class="tr__directv">
+        <td colspan="1">Perry Mason</td>
+        <td colspan="1">Candid Camera</td>
+        <td colspan="1">What's My Line?</td>
+      </tr>
+      <tr class="tr__directv">
+        <td colspan="1">Bonanza</td>
+        <td colspan="2">The Wackiest Ship in the Army</td>
+      </tr>
+    </table>
+
+    <!--3rd table -->
+    <table class="table__fruit">
+      <caption>
+        3rd Table
+      </caption>
+      <tr class="img-border">
+        <td>
+          <img src="imgs/apples.webp" alt="Apples Picture" />
+        </td>
+        <th rowspan="3">
+          <img src="imgs/oranges.webp" alt="Orange picture" />
+        </th>
+        <td><img src="imgs/pears.webp" alt="Pears picture" /></td>
+      </tr>
+      <tr class="img-border">
+        <td><img src="imgs/bananas.webp" alt="Bananas Picture" /></td>
+        <td rowspan="2">
+          <img src="imgs/pineapple.webp" alt="Pineapple Picture" />
+        </td>
+      </tr>
+      <tr class="img-border">
+        <td><img src="imgs/lychees.jpg" alt="Lychees Picture" /></td>
+      </tr>
+    </table>
+
+    <!--4th table -->
+    <table>
+      <caption>
+        Schedule
+      </caption>
+      <tr class="tr__classes">
+        <th rowspan="2" class="tr__classes"></th>
+        <th colspan="2">Classes</th>
+        <th rowspan="2">Sunday</th>
+      </tr>
+      <tr>
+        <th rowspan="1" class="tr__classes">M - F</th>
+        <th rowspan="1" class="tr__classes">M - T</th>
+      </tr>
+      <tr>
+        <th scope="row" class="tr__classes">COSW10</th>
+        <td colspan="">7:30AM - 10:00AM</td>
+        <td>7:00AM - 7:30AM</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <th scope="row">Web Design</th>
+        <td>6:00AM - 7:00AM</td>
+        <td>7:30AM - 7:00AM</td>
+        <td>Data B3</td>
+      </tr>
+      <tr>
+        <th scope="row">Surfing</th>
+        <td colspan="3" class="last-col">All day</td>
+      </tr>
+    </table>
+  </body>
+</html>
